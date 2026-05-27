@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "id": "usr_89102a5d08f6d5db",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "passwordHash": "c769823031b3d175cbcbbac6f9df065f:1af552f7e0b35583f442a240342548d592a33ca7dfc6275086bc196d62acb64b",
+      "role": "Admin",
+      "createdAt": "2026-05-26T15:49:11.929Z"
+    },
+    {
+      "id": "usr_559c6ff43f39561a",
+      "name": "Member User",
+      "email": "member@example.com",
+      "passwordHash": "846a8b6913842bb5fc1fcf5d679a0290:35745ea847103097a29951bbb52c5918ee0bcf30badaf47ac0fbb0705c8dc519",
+      "role": "Member",
+      "createdAt": "2026-05-26T15:49:11.969Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "ses_84d6ec6de80df1bf",
+      "userId": "usr_89102a5d08f6d5db",
+      "createdAt": "2026-05-26T15:49:48.714Z"
+    },
+    {
+      "token": "ses_1e9cf72597d3605f",
+      "userId": "usr_89102a5d08f6d5db",
+      "createdAt": "2026-05-26T16:06:26.098Z"
+    },
+    {
+      "token": "ses_ca4a227bf821cc86",
+      "userId": "usr_89102a5d08f6d5db",
+      "createdAt": "2026-05-26T16:24:32.222Z"
+    },
+    {
+      "token": "ses_296e41783cb5a6f8",
+      "userId": "usr_89102a5d08f6d5db",
+      "createdAt": "2026-05-27T01:45:36.165Z"
+    },
+    {
+      "token": "ses_62c51b885b2bf43b",
+      "userId": "usr_89102a5d08f6d5db",
+      "createdAt": "2026-05-27T01:47:17.234Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj_ff6e5ed1c1f43005",
+      "name": "Ethara Ai",
+      "description": "Demo project",
+      "ownerId": "usr_89102a5d08f6d5db",
+      "memberIds": [
+        "usr_89102a5d08f6d5db"
+      ],
+      "createdAt": "2026-05-27T01:48:14.100Z"
+    },
+    {
+      "id": "prj_151e12fb8bf461f2",
+      "name": "Demo Project",
+      "description": "abc abc",
+      "ownerId": "usr_89102a5d08f6d5db",
+      "memberIds": [
+        "usr_89102a5d08f6d5db"
+      ],
+      "createdAt": "2026-05-27T01:56:03.116Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk_f300be160964b71f",
+      "projectId": "prj_ff6e5ed1c1f43005",
+      "title": "Ethara ai project",
+      "description": "Demo project Team Task Manager",
+      "assigneeId": "usr_89102a5d08f6d5db",
+      "status": "in-progress",
+      "dueDate": "2026-05-28",
+      "createdBy": "usr_89102a5d08f6d5db",
+      "createdAt": "2026-05-27T01:55:16.932Z",
+      "updatedAt": "2026-05-27T01:56:34.472Z"
+    }
+  ]
+}
